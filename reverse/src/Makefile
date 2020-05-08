@@ -2,7 +2,7 @@ CC := gcc
 SRCDIR := .
 BUILDDIR := ../bin
 CFLAGS := -g -Wall
-TARGET := $(BUILDDIR)/MyMakefileExample
+TARGET := $(BUILDDIR)/reverse
  
 SRCEXT := c
 SOURCES := $(wildcard $(SRCDIR)/*.c)
